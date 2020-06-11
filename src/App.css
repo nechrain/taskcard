@@ -1,0 +1,58 @@
+.App {
+  text-align: center;
+}
+.carte{
+  width:35rem; 
+  background-color: rgb(155, 192, 192);
+  margin: 20px;
+}
+.lesCartes{
+  display: flex;
+  justify-content: space-between;
+  margin: 50PX;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.count{
+  display: flex;
+  flex-direction: flex;
+  justify-content: center;
+}
+.imagecarte{
+  width: 18rem;
+  border-radius: 7%;
+  margin-bottom: 20px;
+}
+h3{
+  font-family: fantasy;
+}
+.navbar{
+  background-image: linear-gradient(to right,rgb(147, 211, 221) , rgb(61, 133, 127));
+  height:  120px;
+}
+.logoNAV{
+  border-radius: 50%;
+  height: 100px;
+  
+}
+.footer{
+background-image: linear-gradient(to right,rgb(103, 193, 207) , rgb(61, 133, 127));
+
+}
+.navbar ul li {
+ 
+  list-style: none;
+  display: inline;
+  justify-content: space-around;
+  padding-left: 50px;
+  font-family: fantasy;
+  color: aliceblue;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.logo{
+  border-radius: 50%;
+  height: 150px;
+  margin-top: 20px;
+}
